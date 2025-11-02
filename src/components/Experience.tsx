@@ -8,73 +8,37 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       type: 'work',
-      title: 'Senior Data Scientist',
-      company: 'TechCorp Analytics',
-      location: 'San Francisco, CA',
-      period: '2022 - Present',
-      description: 'Lead a team of 5 data scientists in developing ML solutions for customer analytics. Implemented end-to-end ML pipelines resulting in 25% increase in customer retention.',
-      achievements: [
-        'Deployed 15+ ML models to production with 99.9% uptime',
-        'Reduced model training time by 60% through optimization',
-        'Mentored 3 junior data scientists'
-      ]
-    },
-    {
-      type: 'work',
       title: 'Data Scientist',
-      company: 'DataDriven Solutions',
-      location: 'Seattle, WA',
-      period: '2020 - 2022',
-      description: 'Developed predictive models for financial forecasting and risk assessment. Built automated reporting systems that saved 20 hours/week of manual work.',
+      company: 'IME-Brands',
+      location: ' Illinois, USA',
+      period: '2023 - 2024',
+      description: 'Led a team in developing customer analytics solutions, implementing end-to-end machine learning pipelines that enhanced customer insights and retention.',
       achievements: [
-        'Built fraud detection system with 97% accuracy',
-        'Automated data pipeline processing 10M+ records daily',
-        'Collaborated with cross-functional teams on 8 major projects'
-      ]
-    },
-    {
-      type: 'work',
-      title: 'Junior Data Analyst',
-      company: 'StartupXYZ',
-      location: 'Austin, TX',
-      period: '2019 - 2020',
-      description: 'Performed data analysis and visualization for business intelligence. Created dashboards and reports for executive decision-making.',
-      achievements: [
-        'Created 20+ interactive dashboards',
-        'Analyzed customer behavior data for product optimization',
-        'Presented insights to C-level executives monthly'
+        'Developed models leveraging historical data and machine learning techniques to forecast revenue and profitability, while enhancing sales and personalization through customer segmentation, basket analysis, and recommendation systems.',
+        'Created interactive Power BI dashboards and optimized marketing strategies through A/B testing to support data-driven decision-making.',
+        'Performed NLP-based sentiment analysis on product reviews and applied computer vision for product image analysis and classification, improving actionable insights and data processing efficiency.'
       ]
     }
   ];
 
+  
+
   const education = [
     {
       type: 'education',
-      title: 'M.S. in Data Science',
-      company: 'Stanford University',
-      location: 'Stanford, CA',
-      period: '2017 - 2019',
-      description: 'Specialized in Machine Learning and Statistical Analysis. Thesis on "Deep Learning Applications in Computer Vision".',
+      title: 'Engineering',
+      company: 'Dokuz Eylul University',
+      location: 'İzmir, Turkey',
+      period: '2002 - 2007',
+      description: 'Bachelor of Science in Engineering.',
       achievements: [
         'GPA: 3.9/4.0',
         'Graduate Teaching Assistant for ML courses',
         'Published 2 research papers in top-tier conferences'
       ]
     },
-    {
-      type: 'education',
-      title: 'B.S. in Computer Science',
-      company: 'University of California, Berkeley',
-      location: 'Berkeley, CA',
-      period: '2013 - 2017',
-      description: 'Minor in Mathematics and Statistics. Active member of the Data Science Student Society.',
-      achievements: [
-        'Magna Cum Laude graduate',
-        'Dean\'s List for 6 semesters',
-        'Captain of University Programming Contest Team'
-      ]
-    }
-  ];
+ 
+ ];
 
   const allItems = [...experiences, ...education].sort((a, b) => {
     const yearA = parseInt(a.period.split(' - ')[0]);
