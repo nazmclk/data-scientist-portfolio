@@ -33,8 +33,7 @@ const Experience: React.FC = () => {
       description: 'Bachelor of Science in Engineering.',
       achievements: [
         'GPA: 3.4/4.0',
-        'Graduate Teaching Assistant for ML courses',
-        'Published 2 research papers in top-tier conferences'
+        
       ]
     },
  
