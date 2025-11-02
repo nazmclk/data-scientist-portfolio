@@ -32,12 +32,10 @@ const Experience: React.FC = () => {
       period: '2002 - 2007',
       description: 'Bachelor of Science in Engineering.',
       achievements: [
-        'GPA: 3.4/4.0',
-        
+        'GPA: 3.4/4.0'        
       ]
-    },
- 
- ];
+    } 
+   ];
 
   const allItems = [...experiences, ...education].sort((a, b) => {
     const yearA = parseInt(a.period.split(' - ')[0]);
