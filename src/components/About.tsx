@@ -50,7 +50,7 @@ const About: React.FC = () => {
               <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl p-1">
                 <div className="bg-white dark:bg-gray-900 rounded-xl p-2 text-center">
                   <img 
-                    src="/my-foto.jpg" 
+                    src="my-foto.jpg" 
                     alt="Nazım ÇALIK"
                     className="w-48 h-48 mx-auto rounded-full object-cover mb-4"
                   />
