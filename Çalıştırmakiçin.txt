@@ -1,0 +1,20 @@
+Vite-React projesini çalıştırma adımları:
+1. Terminali açın (VS Code önerilir):
+
+cd data-scientist-portfolio
+
+2. Bağımlılıkları yükleyin:
+
+npm install
+
+3. Geliştirme sunucusunu çalıştırın:
+
+npm run dev
+
+4. Tarayıcıda açın:
+
+Terminal size bir link verir, genelde:
+
+ http://localhost:5173/data-scientist-portfolio/
+
+veya github pages deki linki çalıştır.
